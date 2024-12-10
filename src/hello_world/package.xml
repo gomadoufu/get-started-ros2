@@ -4,16 +4,16 @@
   <name>hello_world</name>
   <version>2.0.0</version>
   <description>C++ hello_world demo nodes.</description>
-  <maintainer email="gomadoufupudding@gmail.com>gomadoufu</maintainer>
+  <maintainer email="gomadoufupudding@gmail.com">gomadoufu</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <depend>rclcpp</depend>
-  <depend>hello_world_msgs</depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>hello_world_msgs</build_depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>hello_world_msgs</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

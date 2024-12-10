@@ -1,0 +1,44 @@
+[0.019s] Invoking command in '/home/gomadoufu/get-started-ros2/build/hello_world': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gomadoufu/get-started-ros2/src/hello_world -DCMAKE_INSTALL_PREFIX=/home/gomadoufu/get-started-ros2/install/hello_world
+[0.253s] -- The C compiler identification is GNU 13.2.0
+[0.446s] -- The CXX compiler identification is GNU 13.2.0
+[0.477s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.641s] -- Detecting C compile features
+[0.642s] -- Detecting C compile features - done
+[0.659s] -- Detecting CXX compiler ABI info
+[0.814s] -- Detecting CXX compiler ABI info - done
+[0.834s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.834s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.849s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.071s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.261s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.354s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.394s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.622s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.627s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.781s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.816s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.972s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.972s]   By not providing "Findhello_world_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.972s]   project has asked CMake to find a package configuration file provided by
+[1.972s]   "hello_world_msgs", but CMake did not find one.
+[1.972s] 
+[1.972s]   Could not find a package configuration file provided by "hello_world_msgs"
+[1.973s]   with any of the following names:
+[1.973s] 
+[1.973s]     hello_world_msgsConfig.cmake
+[1.973s]     hello_world_msgs-config.cmake
+[1.973s] 
+[1.973s]   Add the installation prefix of "hello_world_msgs" to CMAKE_PREFIX_PATH or
+[1.973s]   set "hello_world_msgs_DIR" to a directory containing one of the above
+[1.973s]   files.  If "hello_world_msgs" provides a separate development package or
+[1.973s]   SDK, be sure it has been installed.
+[1.973s] 
+[1.974s] [0m
+[1.974s] -- Configuring incomplete, errors occurred!
+[1.986s] Invoked command in '/home/gomadoufu/get-started-ros2/build/hello_world' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gomadoufu/get-started-ros2/src/hello_world -DCMAKE_INSTALL_PREFIX=/home/gomadoufu/get-started-ros2/install/hello_world

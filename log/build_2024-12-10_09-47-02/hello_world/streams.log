@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/gomadoufu/get-started-ros2/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gomadoufu/get-started-ros2/src/hello_world -DCMAKE_INSTALL_PREFIX=/home/gomadoufu/get-started-ros2/install/hello_world
+[0.033s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.394s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.774s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.775s]   By not providing "Findhello_world_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.775s]   project has asked CMake to find a package configuration file provided by
+[0.775s]   "hello_world_msgs", but CMake did not find one.
+[0.775s] 
+[0.776s]   Could not find a package configuration file provided by "hello_world_msgs"
+[0.776s]   with any of the following names:
+[0.776s] 
+[0.776s]     hello_world_msgsConfig.cmake
+[0.776s]     hello_world_msgs-config.cmake
+[0.776s] 
+[0.777s]   Add the installation prefix of "hello_world_msgs" to CMAKE_PREFIX_PATH or
+[0.777s]   set "hello_world_msgs_DIR" to a directory containing one of the above
+[0.777s]   files.  If "hello_world_msgs" provides a separate development package or
+[0.777s]   SDK, be sure it has been installed.
+[0.777s] 
+[0.778s] [0m
+[0.778s] -- Configuring incomplete, errors occurred!
+[0.785s] Invoked command in '/home/gomadoufu/get-started-ros2/build/hello_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/gomadoufu/get-started-ros2/src/hello_world -DCMAKE_INSTALL_PREFIX=/home/gomadoufu/get-started-ros2/install/hello_world
