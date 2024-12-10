@@ -275,7 +275,10 @@ SITE:STRING=vaio-ubuntu
 TinyXML2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/tinyxml2
 
 //Path to a library.
-_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.a
+_lib:FILEPATH=/home/gomadoufu/get-started-ros2/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_fastrtps_cpp.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/jazzy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/jazzy/share/ament_cmake/cmake
@@ -353,7 +356,7 @@ hello_world_IS_TOP_LEVEL:STATIC=ON
 hello_world_SOURCE_DIR:STATIC=/home/gomadoufu/get-started-ros2/src/hello_world
 
 //The directory containing a CMake configuration file for hello_world_msgs.
-hello_world_msgs_DIR:PATH=hello_world_msgs_DIR-NOTFOUND
+hello_world_msgs_DIR:PATH=/home/gomadoufu/get-started-ros2/install/hello_world_msgs/share/hello_world_msgs/cmake
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/jazzy/share/libstatistics_collector/cmake
@@ -457,11 +460,17 @@ service_msgs_DIR:PATH=/opt/ros/jazzy/share/service_msgs/cmake
 //The directory containing a CMake configuration file for statistics_msgs.
 statistics_msgs_DIR:PATH=/opt/ros/jazzy/share/statistics_msgs/cmake
 
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/jazzy/share/std_msgs/cmake
+
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/jazzy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for type_description_interfaces.
 type_description_interfaces_DIR:PATH=/opt/ros/jazzy/share/type_description_interfaces/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/jazzy/share/unique_identifier_msgs/cmake
 
 
 ########################
